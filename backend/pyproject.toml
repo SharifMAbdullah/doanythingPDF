@@ -1,0 +1,17 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "backend for managing the RAG system and services for doanythingpdf"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "faiss-cpu>=1.13.0",
+    "fastapi>=0.123.5",
+    "numpy>=2.3.5",
+    "pydantic>=2.12.5",
+    "pypdf2>=3.0.1",
+    "python-multipart>=0.0.20",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=5.1.2",
+    "uvicorn[standard]>=0.38.0",
+]
